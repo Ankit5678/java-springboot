@@ -44,4 +44,8 @@ public class MySecurityConfiguration extends WebSecurityConfigurerAdapter{
 	public PasswordEncoder passwordEncoder(){
 		return NoOpPasswordEncoder.getInstance();
 	}
+	
+	public String newmethod() {
+		return "test";
+	}
 }
